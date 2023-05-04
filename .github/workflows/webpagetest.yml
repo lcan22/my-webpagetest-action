@@ -1,0 +1,16 @@
+name: WebPageTest
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  webpagetest:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Run WebPageTest
+      uses: WPO-Foundation/webpagetest-action@master
+      with:
+        url: 'https://lcan22.github.io/my-webpagetest-action/'
+        key: ${{ secrets.WPT_API_KEY }}
