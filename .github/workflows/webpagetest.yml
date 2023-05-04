@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Run WebPageTest
-      uses: WPO-Foundation/webpagetest-action@master
+      uses: WPO-Foundation/webpagetest-action@v1.0.1
       with:
         url: 'https://lcan22.github.io/my-webpagetest-action/'
         key: ${{ secrets.WPT_API_KEY }}
