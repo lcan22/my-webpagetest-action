@@ -18,3 +18,4 @@ jobs:
           https://lcan22.github.io/my-webpagetest-action/
           https://lcan22.github.io/my-webpagetest-action/about
         label: 'GitHub Action Test'
+        
